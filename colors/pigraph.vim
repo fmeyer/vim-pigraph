@@ -1,13 +1,13 @@
 "pigraph theme based on blackdust
 "fmeyer@pigraph.com
 
-
 set background=dark
-hi clear          
-
+hi clear
 if exists("syntax_on")
   syntax reset
 endif
+
+let g:colors_name = "pigraph"
 
 hi Boolean         guifg=#eee689 
 hi Character       guifg=#eee689 
@@ -44,7 +44,7 @@ hi LineNr          guifg=#7f7f7f guibg=#343a3f
 hi Normal          guifg=#d6dbdf guibg=#2c3237 gui=none
 hi Number          guifg=#aca0a3
 hi Operator        guifg=#ffffff
-hi Pmenu            guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
+hi Pmenu           guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
 hi PmenuSel        guifg=#000000 guibg=#b1d631 ctermfg=0 ctermbg=148
 hi PreCondit       guifg=#dfaf8f 
 hi PreProc         guifg=#ee8a37 
@@ -66,7 +66,7 @@ hi Title           guifg=#ffffff guibg=#333333
 hi Todo            guifg=#ffffff guibg=#000000 
 hi Typedef         guifg=#ffffff gui=underline
 hi Type            guifg=#ffffff 
-hi VertSplit      guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
+hi VertSplit       guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
 hi Visual          guifg=#000000 guibg=#b1d631
 hi VisualNOS       guifg=#343a3f guibg=#f18c96 gui=underline
 hi WarningMsg      guifg=#ffffff guibg=#333333 
